@@ -1,0 +1,11 @@
+<div class="map-container" id="map-container">
+	<div class="map-style-menu" *ngIf="displayStyles">
+		<input name="mapStyle" type="radio" value="Street" /> Street
+		<br/>
+		<input name="mapStyle" type="radio" value="Satellite" /> Satellite
+	</div>
+	<div class="map-style-search" *ngIf="displaySearch"></div>
+	<div id="map-div">
+        Loading...
+    </div>
+</div>
